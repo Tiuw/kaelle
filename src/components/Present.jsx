@@ -1,6 +1,7 @@
 import React from 'react'
 import SectionWrapper from './SectionWrapper'
 import "../assets/css/present.css";
+
 function Present() {
   return (
     <SectionWrapper>
@@ -31,6 +32,8 @@ function Present() {
           </div>
         </label>
       </div>
+      <p className="text-center text-xl font-bold mt-6">Waktu Ketemu :p</p>
+      <p className="text-center text-md font-normal mt-2">Semoga hadiah-hadiah ini membuatmu senang! 🎁</p>
     </SectionWrapper>
   )
 }
